@@ -47,8 +47,10 @@
     <Compile Include="EvenOrOdd.cs" />
     <Compile Include="LargestOfThree.cs" />
     <Compile Include="Number.cs" />
+    <Compile Include="PowerOfTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumOfSquares.cs" />
     <Compile Include="Voting.cs" />
     <Compile Include="Weekday.cs" />
   </ItemGroup>
