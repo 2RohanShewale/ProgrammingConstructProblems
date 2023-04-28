@@ -15,7 +15,7 @@ namespace ProgrammingConstructProblems
             {
                 Console.WriteLine();
                 Console.WriteLine("\\******Programming Construct Problem******/");
-                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\n3.Eligible for a vote\nEnter A Choice: ");
+                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\n3.Eligible for a vote\n4.Largest of Three\nEnter A Choice: ");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
                 ChooseProgram(choice);
@@ -36,6 +36,10 @@ namespace ProgrammingConstructProblems
                 case 3:
                     Voting vote = new Voting();
                     vote.EligibilityForVoting();
+                    break;
+                case 4:
+                    LargestOfThree largest = new LargestOfThree();
+                    largest.FindLargestOfThree();
                     break;
                 default:
                     Main();
