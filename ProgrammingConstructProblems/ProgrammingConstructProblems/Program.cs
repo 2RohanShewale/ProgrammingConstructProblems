@@ -14,7 +14,7 @@ namespace ProgrammingConstructProblems
             {
                 Console.WriteLine();
                 Console.WriteLine("\\******Programming Construct Problem******/");
-                Console.Write("\n1.Check number are equal or not\nEnter A Choice: ");
+                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\nEnter A Choice: ");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
                 ChooseProgram(choice);
@@ -27,6 +27,10 @@ namespace ProgrammingConstructProblems
                 case 1:
                     Number number = new Number();
                     number.CheckIfTwoNumbersEqualOrNot();
+                    break;
+                case 2:
+                    EvenOrOdd evenOr = new EvenOrOdd();
+                    evenOr.CheckIfNumberIsEvenOrOdd();
                     break;
                 default:
                     Main();
