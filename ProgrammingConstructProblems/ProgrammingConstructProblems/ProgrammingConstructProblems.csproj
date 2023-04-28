@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Arithmatic.cs" />
     <Compile Include="EvenOrOdd.cs" />
+    <Compile Include="Factorial.cs" />
     <Compile Include="LargestOfThree.cs" />
     <Compile Include="Number.cs" />
     <Compile Include="PowerOfTwo.cs" />

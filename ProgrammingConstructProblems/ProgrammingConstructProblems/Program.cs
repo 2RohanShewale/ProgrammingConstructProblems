@@ -15,7 +15,7 @@ namespace ProgrammingConstructProblems
             {
                 Console.WriteLine();
                 Console.WriteLine("\\******Programming Construct Problem******/");
-                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\n3.Eligible for a vote\n4.Largest of Three\n6.Find Weekday\n7.Arithmatic Operations\n8.Power Of Two\n9.Sum Of Squares\nEnter A Choice: ");
+                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\n3.Eligible for a vote\n4.Largest of Three\n6.Find Weekday\n7.Arithmatic Operations\n8.Power Of Two\n9.Sum Of Squares\n10.Factorial\nEnter A Choice: ");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
                 ChooseProgram(choice);
@@ -56,6 +56,10 @@ namespace ProgrammingConstructProblems
                 case 9:
                     SumOfSquares objTwo = new SumOfSquares();
                     objTwo.PrintSumOfSquares();
+                    break;
+                case 10:
+                    Factorial factorial= new Factorial(); 
+                    factorial.FindFactorial();
                     break;
                 default:
                     Main();
