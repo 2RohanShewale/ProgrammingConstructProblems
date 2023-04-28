@@ -10,7 +10,14 @@ namespace ProgrammingConstructProblems
     {
         public void PrintSumOfSquares()
         {
-            
+            Console.Write("Enter a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                sum += i * i;
+            }
+            Console.WriteLine($"The sum of squares of the first {n} numbers is: {sum}");
 
         }
     }
