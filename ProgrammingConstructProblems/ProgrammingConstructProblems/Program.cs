@@ -15,7 +15,7 @@ namespace ProgrammingConstructProblems
             {
                 Console.WriteLine();
                 Console.WriteLine("\\******Programming Construct Problem******/");
-                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\n3.Eligible for a vote\n4.Largest of Three\n6.Find Weekday\nEnter A Choice: ");
+                Console.Write("\n1.Check number are equal or not\n2.Ever or odd\n3.Eligible for a vote\n4.Largest of Three\n6.Find Weekday\n7.Arithmatic Operations\nEnter A Choice: ");
 
                 int choice = Convert.ToInt32(Console.ReadLine());
                 ChooseProgram(choice);
@@ -44,6 +44,10 @@ namespace ProgrammingConstructProblems
                 case 6:
                     Weekday obj = new Weekday();
                     obj.PrintWeekday();
+                    break;
+                case 7:
+                    Arithmatic arithmatic = new Arithmatic();
+                    arithmatic.Operations();
                     break;
                 default:
                     Main();

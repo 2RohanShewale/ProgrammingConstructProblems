@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arithmatic.cs" />
     <Compile Include="EvenOrOdd.cs" />
     <Compile Include="LargestOfThree.cs" />
     <Compile Include="Number.cs" />
